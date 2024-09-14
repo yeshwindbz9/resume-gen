@@ -1,0 +1,49 @@
+.input {
+  /* background-color: var(--background-color); */
+  width: 50%;
+  overflow-y: auto;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;
+}
+
+.input:-webkit-scrollbar {
+  display: none;
+}
+
+.info {
+  margin: 2em;
+  display: flex;
+  flex-direction: column;
+  /* padding:1em */
+  width: 80%;
+}
+
+input {
+  background: transparent;
+  /* width: 20em; */
+  padding: 1em;
+  color: var(--primary-text-color);
+  border-radius: 1em;
+  backdrop-filter: blur(5px);
+  box-shadow: 4px 4px 60px rgba(0, 0, 0, 0, 2);
+  font-weight: 500;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+.input-container label {
+  margin-top: 5px;
+  color: var(--primary-text-color);
+}
+
+.glass-card {
+  background: rgba(114, 114, 114, 0.3);
+  border-radius: 1em;
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, 0.2);
+  padding: 1em;
+}
