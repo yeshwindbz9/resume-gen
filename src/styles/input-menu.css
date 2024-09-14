@@ -1,9 +1,16 @@
 .input {
   /* background-color: var(--background-color); */
-  width: 50%;
+  width: 45%;
   overflow-y: auto;
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none;
+}
+
+/* Width for mobile screens */
+@media (max-width: 768px) {
+  .input {
+    width: 100%;
+  }
 }
 
 .input:-webkit-scrollbar {
